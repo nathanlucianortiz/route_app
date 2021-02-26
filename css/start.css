@@ -1,0 +1,48 @@
+@media (max-width: 960px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    color: rgb(17, 17, 17);
+  }
+
+  h1 {
+    color: rgb(17, 17, 17);
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+  }
+  .form-group i {
+    margin-right: 0.5em;
+  }
+  .form-group label {
+    margin-right: 0.5em;
+  }
+  .form-group #tripLength {
+    margin-top: 4em;
+  }
+  .car-nav i {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    color: rgb(17, 77, 17);
+  }
+
+  nav i {
+    color: grey;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+  .wrapper {
+    flex: 1;
+  }
+}

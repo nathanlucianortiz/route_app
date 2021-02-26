@@ -1,0 +1,33 @@
+@media (max-width: 960px) {
+  body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(17, 17, 17);
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .column {
+    flex: 50%;
+  }
+  .column i {
+    color: grey;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav i {
+    color: grey;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+  .wrapper {
+    flex: 1;
+  }
+}
